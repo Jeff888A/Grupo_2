@@ -51,7 +51,6 @@ namespace Grupo_2
             }
     }
         
-
         private void dgvAdministrador_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             txtProceso.Text = dgvAdministrador.CurrentRow.Cells[0].Value.ToString();
